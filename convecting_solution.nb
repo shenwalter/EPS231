@@ -1,0 +1,100 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3152,         92]
+NotebookOptionsPosition[      2588,         74]
+NotebookOutlinePosition[      2982,         90]
+CellTagsIndexPosition[      2939,         87]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.892243445812523*^9, 3.892243445816372*^9}, 
+   3.892284401400053*^9},ExpressionUUID->"3cb9f7ac-76bc-433f-95d0-\
+91479ce3d0f8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"0", "==", 
+     RowBox[{"Fs", "-", "Fc", "+", 
+      RowBox[{"eps", "*", "sigma", "*", 
+       RowBox[{"Ta", "^", "4"}]}], "-", 
+      RowBox[{"sigma", "*", 
+       RowBox[{"Ts", "^", "4"}]}]}]}], "&&", 
+    RowBox[{"0", "==", 
+     RowBox[{"Fa", "+", "Fc", "+", 
+      RowBox[{"eps", "*", "sigma", "*", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Ts", "^", "4"}], "-", 
+         RowBox[{"2", "*", 
+          RowBox[{"Ta", "^", "4"}]}]}], ")"}]}]}]}], "&&", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Cp", "*", "Ts"}], "+", 
+      RowBox[{"L", "*", "rs"}]}], "==", 
+     RowBox[{
+      RowBox[{"Cp", "*", "Ta"}], "+", 
+      RowBox[{"L", "*", "rstar_a"}], "+", 
+      RowBox[{"g", "*", "za"}]}]}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Ts", ",", "Ta", ",", "Fc"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.892243447469223*^9, 3.8922436004644413`*^9}, {
+  3.8922436710019493`*^9, 3.892243717503577*^9}, {3.892243884386877*^9, 
+  3.892243899214999*^9}, {3.892274547000868*^9, 3.8922745472085447`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"37ce55ae-d899-498f-909f-f841656e2a6e"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     RowBox[{"{", 
+       TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], "}"}], Short[#, 5]& ], 
+   "line" -> 8, "sessionID" -> 30671616067729974320, "byteCount" -> 125678536,
+    "size" -> 5, "stored" -> False, "expr" -> Missing["NotStored"], "wrap" -> 
+   OutputSizeLimit`Defer, "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellChangeTimes->{
+  3.892243585756403*^9, {3.892243690977922*^9, 3.892243718044231*^9}, {
+   3.892243897757585*^9, 3.8922439106308727`*^9}, 3.892274568748868*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"dcb64a14-a8f3-48b2-b8a2-1d5b4108f3eb"]
+}, Open  ]]
+},
+WindowSize->{1389, 779},
+WindowMargins->{{45, Automatic}, {31, Automatic}},
+FrontEndVersion->"13.1 for Mac OS X ARM (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"64672835-c458-4084-b1da-7a0c4be703b6"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 175, 3, 30, "Input",ExpressionUUID->"3cb9f7ac-76bc-433f-95d0-91479ce3d0f8"],
+Cell[CellGroupData[{
+Cell[758, 27, 1171, 31, 30, "Input",ExpressionUUID->"37ce55ae-d899-498f-909f-f841656e2a6e"],
+Cell[1932, 60, 640, 11, 85, "Output",ExpressionUUID->"dcb64a14-a8f3-48b2-b8a2-1d5b4108f3eb"]
+}, Open  ]]
+}
+]
+*)
+
